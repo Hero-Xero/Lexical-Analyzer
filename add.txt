@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+  int x = 10;
+  int y = 20;
+  int sum = x + y;
+
+  if (sum > 30) {
+    printf("Sum is greater than 30.\n");
+  } else {
+    printf("Sum is not greater than 30.\n");
+  }
+
+  return 0;
+}

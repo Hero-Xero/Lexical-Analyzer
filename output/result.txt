@@ -1,0 +1,61 @@
+#	1: ID, name= include
+	1: <
+	1: ID, name= stdio
+.	1: ID, name= h
+>	3: ID, name= int
+	3: ID, name= main
+	3: (
+	3: )
+	3: Unknown token: 24
+	4: ID, name= int
+	4: ID, name= x
+	4: :=
+	4: NUM, val= 10
+	4: ;
+	5: ID, name= int
+	5: ID, name= y
+	5: :=
+	5: NUM, val= 20
+	5: ;
+	6: ID, name= int
+	6: ID, name= sum
+	6: :=
+	6: ID, name= x
+	6: +
+	6: ID, name= y
+	6: ;
+	8: reserved word: if
+	8: (
+	8: ID, name= sum
+>	8: NUM, val= 30
+	8: )
+	8: Unknown token: 24
+	9: reserved word: printf
+	9: (
+"	9: ID, name= Sum
+	9: ID, name= is
+	9: ID, name= greater
+	9: ID, name= than
+	9: NUM, val= 30
+.\	9: ID, name= n
+"	9: )
+	9: ;
+	10: Unknown token: 25
+	10: reserved word: else
+	10: Unknown token: 24
+	11: reserved word: printf
+	11: (
+"	11: ID, name= Sum
+	11: ID, name= is
+	11: ID, name= not
+	11: ID, name= greater
+	11: ID, name= than
+	11: NUM, val= 30
+.\	11: ID, name= n
+"	11: )
+	11: ;
+	12: Unknown token: 25
+	14: reserved word: return
+	14: NUM, val= 0
+	14: ;
+	15: EOF
