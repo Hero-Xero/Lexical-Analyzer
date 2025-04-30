@@ -685,7 +685,7 @@ YY_RULE_SETUP
 case 6:
 YY_RULE_SETUP
 #line 35 "c-.flex"
-{return WHILE;}     /* changed until to while */
+{return WHILE;}     /* changed 'until' to 'while' */
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
@@ -705,7 +705,7 @@ YY_RULE_SETUP
 case 10:
 YY_RULE_SETUP
 #line 39 "c-.flex"
-{return EQ;}
+{return EQ;}        /* changed "=" to "==" */
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
