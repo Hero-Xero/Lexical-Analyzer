@@ -675,7 +675,7 @@ YY_RULE_SETUP
 case 4:
 YY_RULE_SETUP
 #line 33 "c-.flex"
-{return VOID;}	    /* added "void" */
+{return VOID;}      /* added "void" */
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
@@ -796,7 +796,7 @@ YY_RULE_SETUP
                         c = input();
                         if (c == EOF) break;  
                         if (c == '\n') lineno++; 
-                    } while (c != '*' || (c == '*' && input() != '/'));  // look for the closing '*/'
+                    } while (c != '*' || (c == '*' && input() != '/'));  // switched from '{}' comment to '/**/' comment 
                 }
 	YY_BREAK
 case 28:
