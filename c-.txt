@@ -42,12 +42,12 @@ whitespace  [ \t]+
 "-"             {return MINUS;}
 "*"             {return TIMES;}
 "/"             {return OVER;}
-"("             {return LPAREN;}
-")"             {return RPAREN;}
-"["             {return LSBRACK;}
-"]"             {return RSBRACK;}
-"{"             {return LCBRACK;}
-"}"             {return RCBRACK;}
+"("             {return LPAREN;}  /* added Left Parentheses */
+")"             {return RPAREN;}  /* added Right Parentheses */
+"["             {return LSBRACK;} /* added Left Square Brackets */
+"]"             {return RSBRACK;} /* added Right Square Brackets */
+"{"             {return LCBRACK;} /* added Left Curly Brackets */
+"}"             {return RCBRACK;} /* added Right Curly Brackets */
 ";"             {return SEMI;}
 {number}        {return NUM;}
 {identifier}    {return ID;}

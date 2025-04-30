@@ -735,32 +735,32 @@ YY_RULE_SETUP
 case 16:
 YY_RULE_SETUP
 #line 45 "c-.flex"
-{return LPAREN;}
+{return LPAREN;}  /* added Left Parentheses */
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
 #line 46 "c-.flex"
-{return RPAREN;}
+{return RPAREN;}  /* added Right Parentheses */
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
 #line 47 "c-.flex"
-{return LSBRACK;}
+{return LSBRACK;} /* added Left Square Brackets */
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
 #line 48 "c-.flex"
-{return RSBRACK;}
+{return RSBRACK;} /* added Right Square Brackets */
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
 #line 49 "c-.flex"
-{return LCBRACK;}
+{return LCBRACK;} /* added Left Curly Brackets */
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
 #line 50 "c-.flex"
-{return RCBRACK;}
+{return RCBRACK;} /* added Right Curly Brackets */
 	YY_BREAK
 case 22:
 YY_RULE_SETUP

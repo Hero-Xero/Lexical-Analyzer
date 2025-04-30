@@ -32,22 +32,22 @@ whitespace  [ \t]+
 "return"        {return RETURN;}    /* "end" to "return" */
 "void"          {return VOID;}      /* added "void" */
 "do"            {return DO;}        /* "do" instead of "repeat" */
-"while"         {return WHILE;}     /* changed until to while */
+"while"         {return WHILE;}     /* changed 'until' to 'while' */
 "scanf"         {return SCAN;}      /* changed "read" to "scanf" */
 "printf"        {return PRINT;}     /* changed "write" to "printf" */
 "="             {return ASSIGN;}    /* changed ":=" to "="  */
-"=="            {return EQ;}
+"=="            {return EQ;}        /* changed "=" to "==" */
 "<"             {return LT;}
 "+"             {return PLUS;}
 "-"             {return MINUS;}
 "*"             {return TIMES;}
 "/"             {return OVER;}
-"("             {return LPAREN;}
-")"             {return RPAREN;}
-"["             {return LSBRACK;}
-"]"             {return RSBRACK;}
-"{"             {return LCBRACK;}
-"}"             {return RCBRACK;}
+"("             {return LPAREN;}  /* added Left Parentheses */
+")"             {return RPAREN;}  /* added Right Parentheses */
+"["             {return LSBRACK;} /* added Left Square Brackets */
+"]"             {return RSBRACK;} /* added Right Square Brackets */
+"{"             {return LCBRACK;} /* added Left Curly Brackets */
+"}"             {return RCBRACK;} /* added Right Curly Brackets */
 ";"             {return SEMI;}
 {number}        {return NUM;}
 {identifier}    {return ID;}
